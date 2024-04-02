@@ -1,13 +1,17 @@
-
+import Header from "@/assets/components/Header";
+import Footer from "@/assets/components/Footer";
+import Main from "@/assets/components/Main"
+import Weather from "./assets/components/Weather";
 
 function App() {
-
-
   return (
     <>
-     <h1 className="text-center text-8xl">Hello react!</h1>
+      <Header />
+      <Main />
+      <Weather />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
