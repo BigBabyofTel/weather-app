@@ -11,7 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-./assests/components/Weather.tsx
 
 # Editor directories and files
 .vscode/*
