@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default function Weather() {
-  const APIkey = "982f45c73f249b6ad789f61b951da41c";
+  const APIkey =
   const cityName = "Cairo";
 
   const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${APIkey}`;
