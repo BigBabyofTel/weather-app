@@ -4,6 +4,6 @@
 export default function Header() {
 
     return (
-        <h1 className="text-left text-5xl">Weather Control</h1>
+        <h1 className="text-center text-5xl m-5">Weather Command</h1>
     )
 }
